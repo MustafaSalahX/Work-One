@@ -35,8 +35,8 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Left: CTA Button */}
-          <div className="hidden md:flex items-end gap-3 justify-end">
+          {/* Logo & Branding */}
+          <div className="flex items-end gap-3 justify-end pointer-events-auto">
             <img
               src="/logo.png"
               alt="مكتب المحامية جمانة نجم الفرس و عبدالعزيز محمد الفرس"
@@ -45,10 +45,8 @@ export function Navbar() {
             <div className="flex flex-col items-end max-w-xs">
               <div className="text-cyan-950 text-sm font-bold leading-5 text-right">
                 مكتب المحامية جمانة نجم الفرس <br></br>و عبدالعزيز محمد الفرس
-
               </div>
             </div>
-
           </div>
 
 
@@ -59,8 +57,8 @@ export function Navbar() {
                 key={link.path}
                 to={link.path}
                 className={`transition-colors text-base leading-6 ${location.pathname === link.path
-                    ? "text-amber-400 font-medium"
-                    : "text-cyan-950 font-normal hover:text-amber-400"
+                  ? "text-amber-400 font-medium"
+                  : "text-cyan-950 font-normal hover:text-amber-400"
                   }`}
               >
                 {link.name}
@@ -80,8 +78,8 @@ export function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`md:hidden fixed top-5 left-5 z-[60] p-2.5 rounded-xl transition-all shadow-md border pointer-events-auto ${isScrolled || isOpen
-                ? "bg-white text-cyan-950 border-gray-200"
-                : "bg-white/90 backdrop-blur-sm text-cyan-950 border-gray-100"
+              ? "bg-white text-cyan-950 border-gray-200"
+              : "bg-white/90 backdrop-blur-sm text-cyan-950 border-gray-100"
               }`}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -98,8 +96,8 @@ export function Navbar() {
           <Link
             to="/"
             className={`block py-2 transition-colors ${location.pathname === "/"
-                ? "text-accent font-medium"
-                : "text-foreground"
+              ? "text-accent font-medium"
+              : "text-foreground"
               }`}
           >
             الرئيسية
@@ -109,8 +107,8 @@ export function Navbar() {
               key={link.path}
               to={link.path}
               className={`block py-2 transition-colors ${location.pathname === link.path
-                  ? "text-accent font-medium"
-                  : "text-foreground"
+                ? "text-accent font-medium"
+                : "text-foreground"
                 }`}
             >
               {link.name}

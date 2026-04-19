@@ -130,7 +130,7 @@ export function Home() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              حماية حقوقك هي <span className="text-accent">أولويتنا</span>
+              مكتب المحامية جمانة نجم الفرس و عبدالعزيز محمد الفرس
             </h1>
 
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
@@ -277,7 +277,7 @@ export function Home() {
               احجز استشارتك الآن
             </Link>
             <a
-              href="https://wa.me/966500000000"
+              href="https://wa.me/+96596055558"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm text-primary-foreground px-8 py-4 rounded-lg hover:bg-white/20 transition-all border border-white/20"
