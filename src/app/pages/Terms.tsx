@@ -100,7 +100,7 @@ export function Terms() {
               لأي استفسارات حول شروط الخدمة، يرجى التواصل معنا عبر:
             </p>
             <ul>
-              <li>الهاتف: +965 960 55558</li>
+              <li>الهاتف: <span dir="ltr">+965 960 55558</span></li>
               <li>البريد الإلكتروني: jumanafaras3@gmail.com</li>
             </ul>
 
