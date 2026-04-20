@@ -157,6 +157,7 @@ export function Home() {
 
       <section className="py-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">لماذا تختارنا</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {trustFactors.map((factor, index) => (
               <div key={index} className="text-center">
@@ -280,6 +281,7 @@ export function Home() {
               href="https://wa.me/+96596055558"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="تواصل معنا عبر واتساب"
               className="bg-white/10 backdrop-blur-sm text-primary-foreground px-8 py-4 rounded-lg hover:bg-white/20 transition-all border border-white/20"
             >
               تواصل عبر واتساب

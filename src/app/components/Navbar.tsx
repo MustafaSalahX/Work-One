@@ -37,11 +37,13 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo & Branding */}
           <div className="flex items-end gap-3 justify-end pointer-events-auto">
-            <img
-              src="/logo.png"
-              alt="مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس"
-              className="w-10 h-10 rounded-xl border-2 border-amber-400 object-cover flex-shrink-0"
-            />
+            <Link to="/" aria-label="الصفحة الرئيسية">
+              <img
+                src="/logo.png"
+                alt="مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس"
+                className="w-10 h-10 rounded-xl border-2 border-amber-400 object-cover flex-shrink-0"
+              />
+            </Link>
             <div className="flex flex-col items-end max-w-xs">
               <div className="text-white md:text-cyan-950 text-sm font-bold leading-5 text-right">
                 مكتب المحامية جمانة نجم فرس <br></br>و عبدالعزيز محمد فرس
@@ -77,6 +79,7 @@ export function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? "إغلاق القائمة" : "فتح القائمة"}
             className={`md:hidden fixed top-5 left-5 z-[60] p-2.5 rounded-xl transition-all shadow-md border pointer-events-auto ${isScrolled || isOpen
               ? "bg-white text-cyan-950 border-gray-200"
               : "bg-white/90 backdrop-blur-sm text-cyan-950 border-gray-100"

@@ -106,6 +106,7 @@ export function Footer() {
                   href="https://www.facebook.com/share/17mzmdbf9q/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="صفحة الفيسبوك"
                   className="bg-accent text-primary w-9 h-9 rounded-full flex items-center justify-center hover:bg-accent/90 transition-colors"
                 >
                   <Facebook className="w-5 h-5" />
@@ -114,6 +115,7 @@ export function Footer() {
                   href="https://www.instagram.com/lawyer.jumanafaras/?__pwa=1"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="صفحة الإنستغرام"
                   className="bg-accent text-primary w-9 h-9 rounded-full flex items-center justify-center hover:bg-accent/90 transition-colors"
                 >
                   <Instagram className="w-5 h-5" />
@@ -122,6 +124,7 @@ export function Footer() {
                   href="https://x.com/jumanafaras?s=11"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="صفحة إكس (تويتر سابقاً)"
                   className="bg-accent text-primary w-9 h-9 rounded-full flex items-center justify-center hover:bg-accent/90 transition-colors"
                 >
                   <Twitter className="w-5 h-5" />
@@ -130,9 +133,11 @@ export function Footer() {
                   href="https://www.tiktok.com/@jumanafaras3?is_from_webapp=1&sender_device=pc"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="صفحة تيك توك"
                   className="bg-accent text-primary w-9 h-9 rounded-full flex items-center justify-center hover:bg-accent/90 transition-colors"
                 >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" role="img">
+                    <title>TikTok</title>
                     <path d="M12.525.02L12.5 0C12.5 0 12.5 0 12.525.02zM12.5 0H12.5v16.03c0 2.22-1.78 4.02-3.98 4.02-2.2 0-3.98-1.8-3.98-4.02s1.78-4.02 3.98-4.02c.31 0 .61.03.89.1v-3.41c-.29-.02-.59-.03-.89-.03-4.09 0-7.4 3.33-7.4 7.44s3.31 7.44 7.4 7.44c3.96 0 7.18-3.1 7.38-6.99h.02V7.12c1.78 1.48 4.09 2.37 6.6 2.37v-3.47c-2.48 0-4.66-1.1-6.1-2.82C15.9 2.59 15.36 1.41 15 0h-2.5z" />
                   </svg>
                 </a>
