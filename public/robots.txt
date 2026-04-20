@@ -2,19 +2,5 @@
 User-agent: *
 Allow: /
 
-# Specific rules for common bots
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-# Crawl delay (optional - be friendly to servers)
-Crawl-delay: 1
-
-# Sitemap location (update with your actual domain)
-Sitemap: https://yourdomain.com/sitemap.xml
-
-# Disallow private pages if any
-# Disallow: /admin/
-# Disallow: /private/
+# Sitemap location
+Sitemap: https://jumanalaw.online/sitemap.xml

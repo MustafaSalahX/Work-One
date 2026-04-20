@@ -14,10 +14,12 @@ import { Contact } from "./pages/Contact";
 import { Terms } from "./pages/Terms";
 import { Privacy } from "./pages/Privacy";
 import { Disclaimer } from "./pages/Disclaimer";
+import { SEOHandler } from "./components/SEOHandler";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <SEOHandler />
       <div className="min-h-screen flex flex-col" dir="rtl">
         <Navbar />
         <main className="flex-1">
