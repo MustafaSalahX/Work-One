@@ -18,7 +18,7 @@ export function Footer() {
               </div>
               مكتب المحامية جمانة نجم فرس <br></br>و عبدالعزيز محمد فرس
             </div>
-            <p className="text-primary-foreground/80 text-sm leading-relaxed">
+            <p className="text-primary-foreground text-sm leading-relaxed">
               مكتب قانوني متخصص في تقديم الخدمات القانونية المتكاملة لحماية واسترداد حقوقك بكل احترافية وسرية.
             </p>
           </div>
@@ -27,27 +27,27 @@ export function Footer() {
             <h3 className="font-semibold mb-4">روابط سريعة</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   الرئيسية
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/about" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   من نحن
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/services" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   خدماتنا
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/blog" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   المدونة
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/contact" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   تواصل معنا
                 </Link>
               </li>
@@ -58,17 +58,17 @@ export function Footer() {
             <h3 className="font-semibold mb-4">معلومات قانونية</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/terms" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/terms" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   شروط الخدمة
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/privacy" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   سياسة الخصوصية
                 </Link>
               </li>
               <li>
-                <Link to="/disclaimer" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <Link to="/disclaimer" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   إخلاء المسؤولية
                 </Link>
               </li>
@@ -82,7 +82,7 @@ export function Footer() {
                 <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
 
 
-                <a href="tel:+96596055558" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm rtl-number" style={{ direction: 'ltr', display: 'inline-block' }}>
+                <a href="tel:+96596055558" className="text-primary-foreground hover:text-accent transition-colors text-sm rtl-number" style={{ direction: 'ltr', display: 'inline-block' }}>
                   +965 9605 5558
                 </a>
 
@@ -91,13 +91,13 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                <a href="mailto:jumanafaras3@gmail.com" className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
+                <a href="mailto:jumanafaras3@gmail.com" className="text-primary-foreground hover:text-accent transition-colors text-sm">
                   jumanafaras3@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm leading-relaxed block max-w-sm">
+                <span className="text-primary-foreground text-sm leading-relaxed block max-w-sm">
                   صباح السالم - ق1 - شارع 102 - بناية 409 - برج 3 - الدور السادس - مكتب 24 مباشر علي طريق الفحيحيل أبراج العربيد
                 </span>
               </li>
@@ -147,7 +147,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/60 text-sm">
+          <p className="text-primary-foreground/90 text-sm">
             © {new Date().getFullYear()}  مكتب المحامية جمانة نجم فرس
             و عبدالعزيز محمد فرس. جميع الحقوق محفوظة.
           </p>

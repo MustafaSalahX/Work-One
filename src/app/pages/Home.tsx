@@ -133,7 +133,7 @@ export function Home() {
               مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس
             </h1>
 
-            <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-primary-foreground mb-8 leading-relaxed">
               نقدم خدمات قانونية متكاملة بأعلى معايير الاحترافية لحماية واسترداد حقوقك
             </p>
 

@@ -45,7 +45,7 @@ export function Navbar() {
               />
             </Link>
             <div className="flex flex-col items-end max-w-xs">
-              <div className="text-white md:text-cyan-950 text-sm font-bold leading-5 text-right">
+              <div className="text-white md:text-cyan-950 text-sm font-bold leading-5 text-right opacity-100">
                 مكتب المحامية جمانة نجم فرس <br></br>و عبدالعزيز محمد فرس
               </div>
             </div>
