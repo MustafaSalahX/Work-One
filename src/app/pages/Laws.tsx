@@ -27,6 +27,27 @@ export function Laws() {
                 <Book className="w-8 h-8 text-accent" />
               </div>
               <div className="flex-1 flex flex-col h-full">
+                <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">دليل المواطن الكويتي</h3>
+                <p className="text-muted-foreground mb-6">دليل شامل لحقوق وواجبات المواطن الكويتي في مختلف المجالات القانونية.</p>
+                
+                <div className="flex flex-wrap items-center gap-4 mt-auto">
+                  <a href="/دليل المواطن الكويتي.docx" target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-accent/10 text-accent hover:bg-accent/20 rounded-lg gap-2 text-sm font-medium transition-colors">
+                    <FileText className="w-4 h-4" />
+                    <span>قراءة الملف</span>
+                  </a>
+                  <a href="/دليل المواطن الكويتي.docx" download className="flex items-center px-4 py-2 border border-border hover:border-accent/50 hover:text-accent rounded-lg gap-2 text-sm font-medium transition-colors">
+                    <Download className="w-4 h-4" />
+                    <span>تحميل</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-8 hover:shadow-lg hover:border-accent/50 transition-all group flex flex-col sm:flex-row items-start gap-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/10 rounded-xl group-hover:bg-accent/20 transition-colors shrink-0">
+                <Book className="w-8 h-8 text-accent" />
+              </div>
+              <div className="flex-1 flex flex-col h-full">
                 <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">قانون الأحوال الشخصية وتعديلاته</h3>
                 <p className="text-muted-foreground mb-6">عرض وتحميل نص قانون الأحوال الشخصية مع كافة التعديلات المعتمدة.</p>
                 

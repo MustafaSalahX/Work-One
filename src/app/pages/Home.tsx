@@ -130,7 +130,7 @@ export function Home() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              مكتب المحامية جمانة نجم الفرس و عبدالعزيز محمد الفرس
+              مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس
             </h1>
 
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">

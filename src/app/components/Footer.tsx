@@ -12,11 +12,11 @@ export function Footer() {
               <div className="bg-accent p-0 rounded-lg">
                 <img
                   src="/logo.png"
-                  alt="مكتب المحامية جمانة نجم الفرس و عبدالعزيز محمد الفرس"
+                  alt="مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس"
                   className="w-10 h-10 rounded-xl border-2 border-amber-400 object-cover flex-shrink-0"
                 />
               </div>
-              مكتب المحامية جمانة نجم الفرس <br></br>و عبدالعزيز محمد الفرس
+              مكتب المحامية جمانة نجم فرس <br></br>و عبدالعزيز محمد فرس
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               مكتب قانوني متخصص في تقديم الخدمات القانونية المتكاملة لحماية واسترداد حقوقك بكل احترافية وسرية.
@@ -143,8 +143,8 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()}  مكتب المحامية جمانة نجم الفرس
-            و عبدالعزيز محمد الفرس. جميع الحقوق محفوظة.
+            © {new Date().getFullYear()}  مكتب المحامية جمانة نجم فرس
+            و عبدالعزيز محمد فرس. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>

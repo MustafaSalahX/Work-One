@@ -39,12 +39,12 @@ export function Navbar() {
           <div className="flex items-end gap-3 justify-end pointer-events-auto">
             <img
               src="/logo.png"
-              alt="مكتب المحامية جمانة نجم الفرس و عبدالعزيز محمد الفرس"
+              alt="مكتب المحامية جمانة نجم فرس و عبدالعزيز محمد فرس"
               className="w-10 h-10 rounded-xl border-2 border-amber-400 object-cover flex-shrink-0"
             />
             <div className="flex flex-col items-end max-w-xs">
-              <div className="text-cyan-950 text-sm font-bold leading-5 text-right">
-                مكتب المحامية جمانة نجم الفرس <br></br>و عبدالعزيز محمد الفرس
+              <div className="text-white md:text-cyan-950 text-sm font-bold leading-5 text-right">
+                مكتب المحامية جمانة نجم فرس <br></br>و عبدالعزيز محمد فرس
               </div>
             </div>
           </div>
